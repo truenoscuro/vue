@@ -7,8 +7,15 @@ services:
       dockerfile: Dockerfile
     volumes: 
       - ./volumns:/vue
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    expose:
+      - 80
+    ports:
+      - 80:5173
     stdin_open: true
     tty: true
+    
 
   
 
