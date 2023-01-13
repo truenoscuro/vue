@@ -3,5 +3,8 @@ install
 ---------
 npm init vue@latest
 ----------
+install sass if you  want use
+npm i sass 
+
 
 add in packatge.json  in script dev --host 0.0.0.0
